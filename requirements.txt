@@ -9,6 +9,7 @@ idna==3.10
 importlib_resources==6.4.5
 kiwisolver==1.4.7
 matplotlib==3.7.5
+mplfinance==0.12.10b0
 multitasking==0.0.11
 numpy==1.24.4
 packaging==24.2

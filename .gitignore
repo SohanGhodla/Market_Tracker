@@ -1,6 +1,8 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files(for windows)
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
 # Virtual environment
 venv/
 # OS generated files
