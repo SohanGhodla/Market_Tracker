@@ -7,23 +7,16 @@ This package requires ``Python 3.8.x``. Using ``Python 3.8.16`` is recommended f
 ### Installing Python 3.8.x with pyenv
 
 If you don't have pyenv installed, first install it via Homebrew:
-
 ```bash
 brew install pyenv
 ```
 
-Next,
-
+Next, install Python 3.8.16
 ```bash
-
-# Install pyenv via Homebrew
-brew install pyenv
-
-# Install Python 3.8.16 with pyenv
 pyenv install 3.8.16
 ```
 
-Next navigate to your directory and set the local directory to use Python 3.8.16
+Next, navigate to your directory and set the local directory to use Python 3.8.16
 ```bash
 pyenv local 3.8.16
 ```
