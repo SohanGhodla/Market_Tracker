@@ -1,4 +1,4 @@
-from scraper_comodities import get_comodity_data
+from src.scraper_comodities import get_comodity_data
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np

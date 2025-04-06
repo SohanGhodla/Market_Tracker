@@ -1,8 +1,8 @@
-from scraper_stocks import get_stock_data
+from src.scraper_stocks import get_stock_data
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-from key_dates import important_dates
+from src.key_dates import important_dates
 import argparse
 import matplotlib.dates as mdates
 
