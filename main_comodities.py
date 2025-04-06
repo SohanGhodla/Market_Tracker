@@ -58,7 +58,7 @@ if __name__ == "__main__":
         data.index = data.index.tz_convert(None)
 
         ax.set_xlabel('Time')
-        ax.set_ylabel('Close Price [USD]')
+        ax.set_ylabel('Price [USD]')
         ax.set_title(f'{ticker} [Last {period}]')
         ax.legend(frameon = False, loc = 'upper left')
         ax.grid(True, linestyle = '--', alpha = 0.5)

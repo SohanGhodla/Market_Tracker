@@ -71,7 +71,7 @@ if __name__ == "__main__":
                             rotation=90, fontsize=8, color='red')
 
         ax.set_xlabel('Time')
-        ax.set_ylabel('Close Price [USD]')
+        ax.set_ylabel('Price [USD]')
         ax.set_title(f'{ticker} [Last {period}]')
         ax.legend(frameon = False, handlelength=0, loc = 'upper left')
         ax.grid(True, linestyle = '--', alpha = 0.5)

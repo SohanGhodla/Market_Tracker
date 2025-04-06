@@ -71,7 +71,7 @@ if __name__ == "__main__":
         else:
             temp_ticker = ticker.replace("=X", "")
             temp_ticker = temp_ticker.replace("USD", "")
-        ax.set_ylabel(f'Close Price [{temp_ticker}]')
+        ax.set_ylabel(f'Price [{temp_ticker}]')
         ax.set_title(f'{ticker.replace("=X", "")} [Last {period}]')
         # ax.legend(frameon = False, handlelength = 0)
         ax.grid(True, linestyle = '--', alpha = 0.5)
